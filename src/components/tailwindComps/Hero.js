@@ -13,8 +13,7 @@ import BG from '../../images/techBG2.jpg'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Product', href: '/product' },
-  { name: 'Pricing', href: '/partnerships/pricing' },
-  { name: 'Partnerships', href: '/partnerships' },
+  { name: 'Pricing', href: '/pricing' },
   { name: 'Blog', href: '/blog' },
   { name: 'Contact', href: '/contact' },
 ]
@@ -132,7 +131,7 @@ export default function HeroComp() {
                     <Link to={"/pricing"} className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-default rounded-full">
                       Wholesale prices
                     </Link>
-                    <Link to={"/partnerships"} className="ml-4 text-sm">Visit our pricing page</Link>
+                    <Link to={"/pricing"} className="ml-4 text-sm">Visit our pricing page</Link>
                     <ChevronRightIcon className="ml-2 w-5 h-5 text-gray-500" aria-hidden="true" />
                   </span>
                   <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
