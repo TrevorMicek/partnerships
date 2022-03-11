@@ -7,11 +7,11 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { Link } from "gatsby"
 import Logo from '../../images/logo.png'
 const navigation = [
+  { name: 'Main Site', href: 'https://websitesbytrevor.com/' },
   { name: 'Home', href: '/' },
   { name: 'Product', href: '/product' },
   { name: 'Pricing', href: '/pricing' },
-  { name: 'Blog', href: '/blog' },
-  { name: 'Contact', href: '/contact' }
+  { name: 'Contact', href: '/contact' },
 ]
 
 export default function Header(props) {

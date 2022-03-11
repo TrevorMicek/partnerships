@@ -10,11 +10,12 @@ import emailjs from 'emailjs-com';
 import Confirm from './Confirmation'
 import Logo from '../../images/logo.png'
 import BG from '../../images/techBG2.jpg'
+
 const navigation = [
+  { name: 'Main Site', href: 'https://websitesbytrevor.com/' },
   { name: 'Home', href: '/' },
   { name: 'Product', href: '/product' },
   { name: 'Pricing', href: '/pricing' },
-  { name: 'Blog', href: '/blog' },
   { name: 'Contact', href: '/contact' },
 ]
 

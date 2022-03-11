@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Custom Ecommerce Websites`,
+    title: `Wholesale Custom Websites`,
     description: `High Quality Ecommerce Websites By Trevor`,
     author: 'Trevor Micek',
   },
