@@ -8,8 +8,8 @@ const ecommercePlans = [
     title: 'Starter',
     featured: false,
     description: 'All your essential business finances, taken care of.',
-    priceMonthly: 900,
-    priceYearly: 90,
+    priceMonthly: 700,
+    priceYearly: 70,
     pages: 2,
     link: 'https://buy.stripe.com/6oE7sUchY4Ck45a144',
     mainFeatures: [
@@ -25,8 +25,8 @@ const ecommercePlans = [
     title: 'Full Solution',
     featured: true,
     description: 'The best financial services for your thriving business.',
-    priceMonthly: 4500,
-    priceYearly: 325,
+    priceMonthly: 3500,
+    priceYearly: 260,
     pages: 6,
     link: 'https://buy.stripe.com/bIY28A2Hoc4MatyfYZ',
     mainFeatures: [
@@ -46,8 +46,8 @@ const ecommercePlans = [
     title: 'Budget',
     featured: false,
     description: 'Convenient features to take your business to the next level.',
-    priceMonthly: 2450,
-    priceYearly: 205,
+    priceMonthly: 1900,
+    priceYearly: 160,
     pages: 6,
     link: 'https://buy.stripe.com/aEUeVmchY5GoeJO5km',
     mainFeatures: [
@@ -67,8 +67,8 @@ const standardPlans = [
     title: 'Starter',
     featured: false,
     description: 'All your essential business finances, taken care of.',
-    priceMonthly: 615,
-    priceYearly: 45,
+    priceMonthly: 500,
+    priceYearly: 35,
     pages: 1,
     link: 'https://buy.stripe.com/14kcNe95Mgl259eaEH',
     mainFeatures: [
@@ -84,8 +84,8 @@ const standardPlans = [
     title: 'Full Solution',
     featured: true,
     description: 'The best financial services for your thriving business.',
-    priceMonthly: 2450,
-    priceYearly: 175,
+    priceMonthly: 1880,
+    priceYearly: 130,
     pages: 5,
     link: 'https://buy.stripe.com/28odRigyefgYbxC5ko',
     mainFeatures: [
@@ -102,8 +102,8 @@ const standardPlans = [
     title: 'Budget',
     featured: false,
     description: 'Convenient features to take your business to the next level.',
-    priceMonthly: 1700,
-    priceYearly: 175,
+    priceMonthly: 1310,
+    priceYearly: 135,
     link: 'https://buy.stripe.com/28odRigyefgYbxC5ko',
     pages: 5,
     mainFeatures: [
@@ -335,11 +335,11 @@ export default function Pricing() {
         <div className=" relative max-w-2xl mx-auto pt-16 px-4 text-center sm:pt-32 sm:px-6 lg:max-w-7xl lg:px-8">
 
           <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-6xl">
-            <span className="block lg:inline">Simple pricing, </span>
+            <span className="block lg:inline">Wholesale pricing, </span>
             <span className="block lg:inline">all-in-one packages.</span>
           </h1>
           <p className="mt-4 text-xl text-indigo-100">
-            Everything you need, nothing you don't. Pick a plan that best suits your business. Click <span onClick={() => setConfirm(true)} className="underline cursor-pointer text-blue-300">here</span> to try our free tier.
+            Everything your clients need, nothing they don't.
           </p>
 
         </div>

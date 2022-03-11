@@ -31,7 +31,6 @@ const features = [
 ]
 
 
-const metricsImg = require('../../images/metrics.png')
 export default function FeatureSection() {
   return (
     <div className="pb-10 pt-16 -mb-8 -mt-14 pr-4 bg-white" style={{gridColumn:"span 7", gridRowStart:"first", gridRowEnd:"second"}}>
@@ -43,7 +42,7 @@ export default function FeatureSection() {
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-600 lg:mx-auto">
           We are changing how small business web design & development is being done
-          with our custom designed single page applications that we offer as an affordable subscription to businesses like you.
+          with our custom designed single page applications that we offer at a wholesale discount to business services like you.
           </p>
         </div>
 
