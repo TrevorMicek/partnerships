@@ -8,8 +8,8 @@ const ecommercePlans = [
     title: 'Starter',
     featured: false,
     description: 'All your essential business finances, taken care of.',
-    priceMonthly: 700,
-    priceYearly: 70,
+    priceMonthly: 99,
+    priceYearly: '',
     pages: 2,
     link: 'https://buy.stripe.com/6oE7sUchY4Ck45a144',
     mainFeatures: [
@@ -25,9 +25,9 @@ const ecommercePlans = [
     title: 'Full Solution',
     featured: true,
     description: 'The best financial services for your thriving business.',
-    priceMonthly: 3500,
-    priceYearly: 260,
-    pages: 6,
+    priceMonthly: 249,
+    priceYearly: '',
+    pages: 5,
     link: 'https://buy.stripe.com/bIY28A2Hoc4MatyfYZ',
     mainFeatures: [
       { id: 1, value: 'Revenue directly from site' },
@@ -46,8 +46,8 @@ const ecommercePlans = [
     title: 'Budget',
     featured: false,
     description: 'Convenient features to take your business to the next level.',
-    priceMonthly: 1900,
-    priceYearly: 160,
+    priceMonthly: 205,
+    priceYearly: '',
     pages: 6,
     link: 'https://buy.stripe.com/aEUeVmchY5GoeJO5km',
     mainFeatures: [
@@ -67,8 +67,8 @@ const standardPlans = [
     title: 'Starter',
     featured: false,
     description: 'All your essential business finances, taken care of.',
-    priceMonthly: 500,
-    priceYearly: 35,
+    priceMonthly: 65,
+    priceYearly: '',
     pages: 1,
     link: 'https://buy.stripe.com/14kcNe95Mgl259eaEH',
     mainFeatures: [
@@ -84,8 +84,8 @@ const standardPlans = [
     title: 'Full Solution',
     featured: true,
     description: 'The best financial services for your thriving business.',
-    priceMonthly: 1880,
-    priceYearly: 130,
+    priceMonthly: 139,
+    priceYearly: '',
     pages: 5,
     link: 'https://buy.stripe.com/28odRigyefgYbxC5ko',
     mainFeatures: [
@@ -102,8 +102,8 @@ const standardPlans = [
     title: 'Budget',
     featured: false,
     description: 'Convenient features to take your business to the next level.',
-    priceMonthly: 1310,
-    priceYearly: 135,
+    priceMonthly: 115,
+    priceYearly: '',
     link: 'https://buy.stripe.com/28odRigyefgYbxC5ko',
     pages: 5,
     mainFeatures: [
@@ -164,14 +164,14 @@ export default function Pricing() {
                   <p
                     className={classNames(
                       plan.featured ? 'text-indigo-600' : 'text-white',
-                      'text-4xl font-extrabold tracking-tight'
+                      'text-4xl mb-16 font-extrabold tracking-tight'
                     )}
                   >
                     ${plan.priceMonthly}
                   </p>
                   <div className="ml-4">
                     <p className={classNames(plan.featured ? 'text-gray-700' : 'text-white', 'text-sm')}>
-                      +  {plan.priceYearly} / mo
+                        {plan.priceYearly} / mo
                     </p>
                     <p className={classNames(plan.featured ? 'text-gray-500' : 'text-indigo-200', 'text-sm')}>
                       Yearly Contracts
@@ -259,14 +259,14 @@ export default function Pricing() {
             <p
               className={classNames(
                 plan.featured ? 'text-indigo-600' : 'text-white',
-                'text-4xl font-extrabold tracking-tight'
+                'text-4xl mb-16 font-extrabold tracking-tight'
               )}
             >
               ${plan.priceMonthly}
             </p>
             <div className="ml-4">
               <p className={classNames(plan.featured ? 'text-gray-700' : 'text-white', 'text-sm')}>
-                +  {plan.priceYearly} / mo
+                  {plan.priceYearly} / mo
               </p>
               <p className={classNames(plan.featured ? 'text-gray-500' : 'text-indigo-200', 'text-sm')}>
                 Yearly Contracts
